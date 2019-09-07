@@ -1,3 +1,18 @@
+Daily - RUNNING
+---------------------------------------------------------------
+##Cloning a repo
+git clone http://github.com/symfony/symfony.git
+---------------------------------------------------------------
+##push a file to repo
+git add .
+git status
+git commit -m 'message' 
+git push origin master
+#name of the repot: origin and name of the branch: masters
+
+
+
+1 Time - INITIALIZE
 ---------------------------------------------------------------
 ##installer git sur LINUX
 sudo apt-get install git-core gitk
@@ -12,6 +27,12 @@ git init
 git remote add origin https://github.com/kevinzous/AzimuthsLearning.git
 git push -u origin master
 
+##----------------------------------
+config the password
+git config --global credential.helper store
+git pull
+##input user pwd
+##if changed need to remove it here ~/.git-credentials
 ---------------------------------------------------------------
 git clone http://github.com/symfony/symfony.git
 ---------------------------------------------------------------
