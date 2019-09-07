@@ -1,19 +1,23 @@
-#installer git sur LINUX
+---------------------------------------------------------------
+##installer git sur LINUX
 sudo apt-get install git-core gitk
 
-------------------------------------------------
-##initialiser un dépot sur ordi local dans le dossier concerné
-git init
 ---------------------------------------------------------------
-###créer le repo sur Github et récuperer le lien
+##initialiser un dépot sur ordi local dans le dossier concerné
+## un dossier .git/ sera alors créé: pour le supprimer : rm -rf .git/
+git init
+
+---------------------------------------------------------------
+##créer le repo sur Github et récuperer le lien
 git remote add origin https://github.com/kevinzous/AzimuthsLearning.git
 git push -u origin master
-------------------------------------------------
 
+---------------------------------------------------------------
 git clone http://github.com/symfony/symfony.git
-
-
-#push a file to repo
-
+---------------------------------------------------------------
+##push a file to repo
 git add .
-git commit -m 'message'
+git status
+git commit -m 'message' 
+git push origin master
+#name of the repot: origin and name of the branch: masters
