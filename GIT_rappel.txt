@@ -1,0 +1,19 @@
+#installer git sur LINUX
+sudo apt-get install git-core gitk
+
+------------------------------------------------
+##initialiser un dépot sur ordi local dans le dossier concerné
+git init
+---------------------------------------------------------------
+###créer le repo sur Github et récuperer le lien
+git remote add origin https://github.com/kevinzous/AzimuthsLearning.git
+git push -u origin master
+------------------------------------------------
+
+git clone http://github.com/symfony/symfony.git
+
+
+#push a file to repo
+
+git add .
+git commit -m 'message'
