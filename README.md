@@ -9,10 +9,10 @@ CheetSheets(Maths,Machine learning,Deeplearning) : https://github.com/afshinea/s
 DataCamp cheetsheets: 
 Python
 
-##Course:
+## Course:
 Tensorflow: https://developers.google.com/machine-learning/crash-course/
 
-##Readings:
+## Readings:
 
 Everything a Data Scientist Should Know About Data Management:
 https://towardsdatascience.com/everything-a-data-scientist-should-know-about-data-management-6877788c6a42
