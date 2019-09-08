@@ -4,7 +4,17 @@
 
 [data-science-blogs](https://github.com/rushter/data-science-blogs?fbclid=IwAR2rjw3Q2hCLJHLVt3jN685t38O6PpRP3ckPysa2FKCtfNjgEM-fMS-k1yQ)
 
-[CheetSheets(Maths,Machine learning,Deeplearning)](https://github.com/afshinea/stanford-cs-229-machine-learning?fbclid=IwAR0UvmdWFmvk9UarO6Lpx6kXGqwpnEJ9KwySLtGDVeNnyCd82l8bideaUDc)
+[Cheet sheets(Maths,Machine learning,Deeplearning)](https://github.com/afshinea/stanford-cs-229-machine-learning?fbclid=IwAR0UvmdWFmvk9UarO6Lpx6kXGqwpnEJ9KwySLtGDVeNnyCd82l8bideaUDc)
+
+[free-programming-books](https://github.com/EbookFoundation/free-programming-books)
+
+[learning (containing lots of ressources)](https://github.com/amitness/learning)
+
+[ossu/data-science](https://github.com/ossu/data-science#curriculum)
+[coding-interview-university](https://github.com/jwasham/coding-interview-university)
+[awesome-python](https://github.com/vinta/awesome-python)
+
+[Learn_Data_Science_in_3_Months](https://github.com/llSourcell/Learn_Data_Science_in_3_Months)
 
 DataCamp cheetsheets: 
 Python
@@ -22,4 +32,5 @@ Deep learning Andrew Yang: Coursera
 [DataVis Battle Entry: Getting to know my Pokémon](https://towardsdatascience.com/reddit-datavis-entry-getting-to-know-my-pok%C3%A9mon-e0bcf4b4b803)
 
 ## Podcasts (on Spotify)
-[Data Skeptic on spotify](https://open.spotify.com/show/1BZN7H3ikovSejhwQTzNm4)
+[Data skeptic on spotify](https://open.spotify.com/show/1BZN7H3ikovSejhwQTzNm4)
+
