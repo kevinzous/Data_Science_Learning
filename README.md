@@ -24,4 +24,5 @@ https://towardsdatascience.com/data-scientists-the-five-graph-algorithms-that-yo
 DataVis Battle Entry: Getting to know my Pokémon:
 https://towardsdatascience.com/reddit-datavis-entry-getting-to-know-my-pok%C3%A9mon-e0bcf4b4b803
 
-
+## Podcasts (on Spotify)
+Data Skeptic on spotify: https://open.spotify.com/show/1BZN7H3ikovSejhwQTzNm4
