@@ -12,6 +12,7 @@ Python
 ## Course:
 Tensorflow: https://developers.google.com/machine-learning/crash-course/
 
+Deep learning Andrew Yang: Coursera
 ## Readings:
 
 Everything a Data Scientist Should Know About Data Management:
@@ -23,5 +24,4 @@ https://towardsdatascience.com/data-scientists-the-five-graph-algorithms-that-yo
 DataVis Battle Entry: Getting to know my Pokémon:
 https://towardsdatascience.com/reddit-datavis-entry-getting-to-know-my-pok%C3%A9mon-e0bcf4b4b803
 
-Deep learning Andrew Yang:
-Coursera
+
