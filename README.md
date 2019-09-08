@@ -11,7 +11,9 @@
 [learning (containing lots of ressources)](https://github.com/amitness/learning)
 
 [ossu/data-science](https://github.com/ossu/data-science#curriculum)
+
 [coding-interview-university](https://github.com/jwasham/coding-interview-university)
+
 [awesome-python](https://github.com/vinta/awesome-python)
 
 [Learn_Data_Science_in_3_Months](https://github.com/llSourcell/Learn_Data_Science_in_3_Months)
