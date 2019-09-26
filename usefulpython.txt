@@ -1,0 +1,2 @@
+# load the python functions to be used from another file
+%run "util_formula.py"
