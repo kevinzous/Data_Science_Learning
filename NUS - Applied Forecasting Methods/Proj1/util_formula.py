@@ -261,3 +261,16 @@ def GetDics(county_facts_dictionary):
 
 def GetDescrCodes(ListofCodes,Dic):
     return [Dic[c] for c in ListofCodes]
+
+
+
+#Replacing codes by indicator names
+    
+county_facts_dictionary = pd.read_csv('data/county_facts_dictionary.csv')
+Dic,Dic_inv={},{}
+for i in range(len(county_facts_dictionary)) :
+    Dic[county_facts_dictionary.values[i][0]]=county_facts_dictionary.values[i][1]
+    Dic_inv[county_facts_dictionary.values[i][1]]=county_facts_dictionary.values[i][0]
+    
+def meaning(train):
+    return train.rename(columns=Dic)

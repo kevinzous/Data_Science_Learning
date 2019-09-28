@@ -34,6 +34,10 @@ county_facts_dictionary = pd.read_csv('data/county_facts_dictionary.csv')
 # =============================================================================
 #Step 1-3 : only the first 52 columns
 #Col used to compute The WMSE
+
+New_index = [str(i)+' '+list(train.index)[i] for i in range(len(train.index))]
+train.index=pd.Index(New_index)
+
 train['n']=train['Bernie Sanders']+train['Hillary Clinton']
 
 train.drop(columns=['Bernie Sanders', 'Donald Trump', 'Hillary Clinton','John Kasich', 'Ted Cruz'],inplace=True)
