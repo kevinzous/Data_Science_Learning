@@ -14,6 +14,7 @@ import seaborn as sns            ##for pairplots..
 
 import statsmodels.formula.api as smf
 import statsmodels.api as sm     #for qqplots
+import statsmodels.stats as sms  #for VIF
 
 import scipy.stats as stats      #for normal distrib
 

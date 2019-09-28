@@ -34,7 +34,7 @@ def diagnosisplot(lm,Features):
         fig1 = plt.figure(figsize=(20,10))
         fig1 = sm.graphics.plot_regress_exog(lm, Features[i],fig=fig1)
         
-        
+
 #plots for simple modal 
 sns.set(font_scale=1)
         
@@ -42,27 +42,9 @@ diagnosisplot(modal,Features)
 #plots for simple modal with sqrt 
 diagnosisplot(modalsqrt,Featuressqrt)
 
-
-
-###Log linear transformation
-plt.hist(np.log(train['HilaryPercent']+12000))
-plt.scatter(x=train['SEX255214'],y=np.log(train['HilaryPercent']+2000))
-train
-
-
-
-# pair plot of some variables of interest
-sns.set(font_scale=1)
-b=sns.pairplot(data=train[Features],diag_kind='kde',height=2, 
-aspect=2, #Size of 1 plot, width = height* aspect
-kind='reg')
-fig.suptitle('Pair plots of variables of interest',fontsize=12, fontweight='bold')
-
-
 # =============================================================================
 # ## Outliers and influence points 
 # =============================================================================
-
 
 fig, ax = plt.subplots(figsize=(14,10))
 fig = sm.graphics.influence_plot(modal, ax=ax, criterion="cooks")
@@ -88,8 +70,6 @@ fig1=sm.graphics.plot_leverage_resid2(modal,ax=ax)
 #113 TX
 
 
-
-
 ## check the leverage and influential points
 influence = modal.get_influence()
 #c is the distance and p is p-value
@@ -100,18 +80,37 @@ fig = plt.stem(np.arange(len(c)), c, markerfmt=",",use_line_collection=True)
 plt.ylabel("Cook's distance")
 plt.xlabel('index')
 
-### potential outilers points 
-
+### Checking some potential outilers points 
 util_formula.meaning(train).iloc[c.argmax()]
 
-#ALL
 util_formula.meaning(train).loc['469 GA']
 util_formula.meaning(train).loc['1883 NE']
 util_formula.meaning(train).loc['1008 NE']
-
 util_formula.meaning(train).loc['2341 UT']
 util_formula.meaning(train).loc['1369 ID']
 
+# =============================================================================
+# # Collinearity
+# =============================================================================
+# pair plot of some variables of interest
+sns.set(font_scale=1)
+b=sns.pairplot(data=train[Features],diag_kind='kde',height=2, 
+aspect=2, #Size of 1 plot, width = height* aspect
+kind='reg')
+fig.suptitle('Pair plots of variables of interest',fontsize=12, fontweight='bold')
+
+#Variance inflation factor
+for i in range(6):
+     print(sms.outliers_influence.variance_inflation_factor(modal.model.exog, i))
+
+inf = sms.outliers_influence.OLSInfluence(modal)
+inf.summary_table()
+
+train_=util_formula.Getwsme('HilaryPercent',train,Formula,'1st step')[1]
+
+###Log linear transformation
+plt.hist(np.log(train['HilaryPercent']+12000))
+plt.scatter(x=train['SEX255214'],y=np.log(train['HilaryPercent']+2000))
 
 # =============================================================================
 # Bias in prediction 
