@@ -5,44 +5,53 @@ from Q1Train import *
 # Diagnosis of linear regression
 # =============================================================================
 
-# check the normality of the residuals
-fig = plt.figure(figsize=(12,12))
-fig = sm.qqplot(lm.resid, stats.distributions.norm, line='r') 
+def diagnosisplot(lm,Features):
+    '''plotting Histogram of normalized residuals
+       quantile-quantile plot of the residuals
+       residuals against fitted value
+       partial plots'''
+    #1-1Histogram of normalized residuals
+    res = lm.resid
+    f1 = plt.figure(figsize=(8,6))
+    f1 = plt.hist(lm.resid_pearson,bins=20)
+    f1 = plt.ylabel('Count')
+    f1 = plt.xlabel('Normalized residuals') 
 
-# residuals against fitter value
-plt.figure(figsize=(10,8))
-plt.scatter(lm.fittedvalues,lm.resid)
+    #1-2 check the normality of the residuals
+    #quantile-quantile plot of the residuals
+    fig2 = plt.figure(figsize=(10,10))
+    fig = sm.qqplot(lm.resid, stats.distributions.norm, line='r') 
+    
+    #1-3 residuals against fitted value
+    fig=plt.figure(figsize=(8,6))
+    ax=fig.add_subplot(111)
+    ax.scatter(lm.fittedvalues,lm.resid)
+    ax.axhline(y=0, linewidth=2, color = 'g')
+    ax.set(xlabel='fitted values',ylabel='residuals')
+    
+    #2 partial plots
+    for i in range(0,len(Features)):
+        fig1 = plt.figure(figsize=(20,10))
+        fig1 = sm.graphics.plot_regress_exog(lm, Features[i],fig=fig1)
+        
+        
+#plots for simple modal 
+diagnosisplot(modal,Features)
+#plots for simple modal with sqrt 
+diagnosisplot(modalsqrt,Featuressqrt)
 
+###Log linear transformation
+plt.hist(np.log(train['HilaryPercent']+12000))
+plt.scatter(x=train['SEX255214'],y=np.log(train['HilaryPercent']+2000))
+train
 
-# partial plots
-fig1 = plt.figure(figsize=(40,20))
-fig1 = sm.graphics.plot_regress_exog(lm, Features[0], fig=fig1) ## big variance but normal
-
-fig2 = plt.figure(figsize=(40,20))
-fig2 = sm.graphics.plot_regress_exog(lm, Features[1], fig=fig2) ## big variance and when predic increases
-
-fig3 = plt.figure(figsize=(40,20))
-fig3 = sm.graphics.plot_regress_exog(lm, Features[2], fig=fig3)
-#putting sqrt deleted the curvature but still have variance issue
-fig1 = plt.figure(figsize=(40,20))
-fig1 = sm.graphics.plot_regress_exog(lm, Features[3], fig=fig1)
-# big variance but normal
-fig1 = plt.figure(figsize=(40,20))
-fig1 = sm.graphics.plot_regress_exog(lm, Features[4], fig=fig1) 
-# big variance but normal
 
 # pair plot of some variables of interest
-Dic_inv_sub={k:Dic_inv[k] for k in Cols if k in Dic_inv}
 sns.set(font_scale=1)
-
-b=sns.pairplot(data=train[Cols].rename(columns=Dic_inv_sub),
-               diag_kind='kde',
-               height=2, aspect=2, #Size of 1 plot, width = height* aspect
-               kind='reg',)
-
-fig.suptitle('Pair plots of variables of interest', 
-              fontsize=12, 
-              fontweight='bold')
+b=sns.pairplot(data=train[Features],diag_kind='kde',height=2, 
+aspect=2, #Size of 1 plot, width = height* aspect
+kind='reg')
+fig.suptitle('Pair plots of variables of interest',fontsize=12, fontweight='bold')
 
 
 # ============================================================================

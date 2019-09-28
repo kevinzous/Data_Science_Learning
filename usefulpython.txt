@@ -1,2 +1,5 @@
 # load the python functions to be used from another file
 %run "util_formula.py"
+
+#OR (will import all objects, var and functions)
+from file import * 
