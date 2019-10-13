@@ -41,21 +41,11 @@ test.drop(columns=['Bernie Sanders', 'Donald Trump', 'Hillary Clinton','John Kas
 train.dropna(inplace=True)
 test.dropna(inplace=True)
 
-##Replacing codes by indicator names
-Dic,Dic_inv={},{}
-for i in range(len(county_facts_dictionary)) :
-    Dic[county_facts_dictionary.values[i][0]]=county_facts_dictionary.values[i][1]
-    Dic_inv[county_facts_dictionary.values[i][1]]=county_facts_dictionary.values[i][0]
-    
-#train.rename(columns=Dic,inplace=True)
-#test.rename(columns=Dic,inplace=True)
-
 
 # load the functions to be used
 from util_formula import *
 
 y = 'HilaryPercent'
-
 
 Cols=[
 "Persons 65 years and over, percent, 2014"

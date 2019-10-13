@@ -52,6 +52,7 @@ test.dropna(inplace=True)
 # =============================================================================
 # Step 1 : Simple linear regressions¶
 # =============================================================================
+
 ## Feature formula preparation
 #Description
 Cols=[
@@ -77,29 +78,21 @@ seperator = '+'
 Formula ='HilaryPercent ~ '+seperator.join(Features)
 Formulasqrt='HilaryPercent ~ '+seperator.join(Featuressqrt)
 #Formulalog='HilaryPercent ~ '+seperator.join(Featureslog)
-
 # =============================================================================
 #  Fitting and Evaluation of first modals 
 # =============================================================================
-#Getwsme Performs :
+#Getwsme_OLS Performs :
 #1train_test plit
 #2Linear Regression on training set
 #3returns wsme error metrics
 #4Add pred and err to train_x_
 #5Return lm,train_x_,test_x_,train_err,test_err
-
-
-
-modal = util_formula.Getwsme('HilaryPercent',train,Formula,'1st step')[0]
+    
+modal = util_formula.Getwsme_OLS('HilaryPercent',train,Formula,'1st step')[0]
 modal.summary()
 
-modalsqrt = util_formula.Getwsme('HilaryPercent',train,Formulasqrt,'1st step sqrt')[0]
+modalsqrt = util_formula.Getwsme_OLS('HilaryPercent',train,Formulasqrt,'1st step sqrt')[0]
 modalsqrt.summary()
-
-#modallog = util_formula.Getwsme('HilaryPercent',train,Formulalog,'1st step log')[0]
-#modallog.summary()
-#
-
 
 # =============================================================================
 # 
@@ -119,23 +112,6 @@ Features_fw_int=['RHI125214:RHI225214', 'RHI625214:RHI825214', 'RHI825214:HSG096
 
 
 
-nfold = 10
-kf = KFold(nfold, shuffle=True)
-
-ListFeatures=[Features,Featuressqrt,Candidates,Features_fw,Features_bw,Features_fw_int]
-ListFormula = ['HilaryPercent ~ '+seperator.join(i) for i in ListFeatures]
-
-Name = ['1st step','1st step sqrt','full','Features_fw','Features_bw','Features_fw_int']
-modals= []
-for i in range(0,len(ListFeatures)):
-    Function1 = util_formula.Getwsme('HilaryPercent',train,ListFormula[i],Name[i])
-    modals.append(Function1[0])
-    #train_x_=Function1[1]
-    print('rsquare: {}'.format(modals[i].rsquared))
-    cverr= util_formula.CrossValidation('HilaryPercent',ListFeatures[i], train, kf.split(train))
-    print(np.mean(cverr))
-    print('\n')
-
 #from sklearn.linear_model import LinearRegression
 #LR=LinearRegression()
 #LR.fit(train_x_[Cols], train_y_)
@@ -146,5 +122,3 @@ for i in range(0,len(ListFeatures)):
 #wsme(LR.predict(train_x_[Cols]),train_y_,train_x_['n'])
 #wsme(LR.predict(test_x_[Cols]),test_y_,test_x_['n'])
 #regrLinWeighted.fit(train_x_, train_y_, sample_weight=(1./train_y_))
-
-#First step #Candidates=['AGE775214','SEX255214','RHI225214','EDU635213','PVY020213']
