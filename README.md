@@ -6,6 +6,8 @@
 
 [Cheet sheets(Maths,Machine learning,Deeplearning)](https://github.com/afshinea/stanford-cs-229-machine-learning?fbclid=IwAR0UvmdWFmvk9UarO6Lpx6kXGqwpnEJ9KwySLtGDVeNnyCd82l8bideaUDc)
 
+[Cheet sheets(Deeplearning)](https://github.com/afshinea/stanford-cs-230-deep-learning/blob/master/en/super-cheatsheet-deep-learning.pdf)
+
 [free-programming-books](https://github.com/EbookFoundation/free-programming-books)
 
 [learning (containing lots of ressources)](https://github.com/amitness/learning)
@@ -24,7 +26,12 @@ Python
 ## Course:
 [Tensorflow](https://developers.google.com/machine-learning/crash-course/)
 
-Deep learning Andrew Yang: Coursera
+[CS 20: Tensorflow for Deep Learning Research](http://web.stanford.edu/class/cs20si/syllabus.html)
+
+[Deep learning Andrew Yang: Coursera]
+
+[Machine Learning, Coursera, Stanford]
+
 ## Readings:
 
 [Everything a Data Scientist Should Know About Data Management](https://towardsdatascience.com/everything-a-data-scientist-should-know-about-data-management-6877788c6a42)
@@ -34,5 +41,5 @@ Deep learning Andrew Yang: Coursera
 [DataVis Battle Entry: Getting to know my Pokémon](https://towardsdatascience.com/reddit-datavis-entry-getting-to-know-my-pok%C3%A9mon-e0bcf4b4b803)
 
 ## Podcasts (on Spotify)
-[Data skeptic on spotify](https://open.spotify.com/show/1BZN7H3ikovSejhwQTzNm4)
+[Data skeptic on spotify (entry level)](https://open.spotify.com/show/1BZN7H3ikovSejhwQTzNm4)
 
