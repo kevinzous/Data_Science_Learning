@@ -41,11 +41,13 @@ test.drop(columns=['Bernie Sanders', 'Donald Trump', 'Hillary Clinton','John Kas
 train.dropna(inplace=True)
 test.dropna(inplace=True)
 
-
 # load the functions to be used
 from util_formula import *
-
 y = 'HilaryPercent'
+
+# =============================================================================
+# # fit with 5 relevant variables 
+# =============================================================================
 
 Cols=[
 "Persons 65 years and over, percent, 2014"
@@ -55,12 +57,15 @@ Cols=[
 ,"Persons below poverty level, percent, 2009-2013"]
 
 Features=[ 'Q("'+ x +'")' for x in Cols]
-Features[2]='np.sqrt('+Features[2]+')' #np.sqrt(Q("Black or African American alone, percent, 2014"))
-
+Features[2]='np.sqrt('+Features[2]+')' 
 seperator = '+'
 Features_concat=seperator.join(Features)
 
 #First step #Candidates=['AGE775214','SEX255214','RHI225214','EDU635213','PVY020213']
+
+# =============================================================================
+# # fit with all the variables
+# =============================================================================
 
 Candidates =['PST045214', 'PST120214', 'AGE135214', 'AGE295214', 'AGE775214', 'SEX255214', 'RHI125214', 'RHI225214', 'RHI325214', 'RHI425214', 'RHI525214', 'RHI625214', 'RHI725214', 'RHI825214', 'POP715213', 'POP645213', 'POP815213', 'EDU635213', 'EDU685213', 'VET605213', 'LFE305213', 'HSG010214',
        'HSG445213', 'HSG096213', 'HSG495213', 'HSD410213', 'HSD310213', 'INC910213', 'INC110213', 'PVY020213', 'BZA010213', 'BZA110213', 'BZA115213', 'NES010213', 'SBO001207', 'SBO315207', 'SBO115207', 'SBO215207', 'SBO515207', 'SBO415207', 'SBO015207', 'MAN450207', 'WTN220207', 'RTN130207', 'RTN131207', 'AFN120207',
@@ -81,9 +86,9 @@ models = getMallowCp(models, fullmodel)
 findBest(models, 'R2')
 
 # =============================================================================
-# 
+# # use forward selection to get the best model
 # =============================================================================
-# use forward selection to get the best model
+
 fwmodel = forward(y, Candidates, train, 'AIC')
 fwmodel.summary()
 Features_fw=['RHI225214', 'EDU635213', 'RHI625214', 'INC910213', 'HSG495213', 'SBO415207', 'EDU685213', 'AGE775214', 'PST120214', 'RHI825214', 'LND110210', 'SEX255214', 'SBO315207', 'RHI425214', 'POP645213', 'AGE135214', 'HSD310213', 'POP715213', 'RHI325214', 'LFE305213', 'RHI725214', 'HSG445213', 'HSG096213', 'POP060210']
@@ -91,6 +96,10 @@ Features_fw=['RHI225214', 'EDU635213', 'RHI625214', 'INC910213', 'HSG495213', 'S
 #AIC:                         1.760e+04
 #R-squared:                       0.662
 #Adj. R-squared:                  0.659
+
+# =============================================================================
+# # use backward selection to get the best model
+# =============================================================================
 
 bwmodel = backward(y, Candidates, train, 'AIC')
 bwmodel.summary()
@@ -100,7 +109,10 @@ Features_bw=['PST045214', 'AGE295214', 'RHI325214', 'RHI525214', 'POP815213', 'H
 #R-squared:                       0.668
 #Adj. R-squared:                  0.664
 
-## include interactions in the predictors
+# =============================================================================
+# ## include interactions in the predictors and forward selection with interaction considered to get the best model
+# =============================================================================
+
 cand_2Inter = []
 for p1 in Candidates:
     for p2 in Candidates:
@@ -112,7 +124,6 @@ for p1 in Candidates:
 print(cand_2Inter)
 print(len(cand_2Inter))
 
-# forward selection with interaction considered
 fwmodel = forward(y, cand_2Inter, train, 'AIC')
 fwmodel.summary()
 #R-squared:                       0.768

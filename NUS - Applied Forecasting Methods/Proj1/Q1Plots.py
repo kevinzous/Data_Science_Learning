@@ -1,8 +1,9 @@
 # Run import
 #%run "1-Train.py"
 from Q1Train import *
+
 # =============================================================================
-# Diagnosis of linear regression
+# Diagnosis plot of linear regression
 # =============================================================================
 
 def diagnosisplot(lm,Features):
@@ -43,7 +44,7 @@ diagnosisplot(modalsqrt,Featuressqrt)
   
 diagnosisplot(modal,Features) 
 
-=============================================================================
+#=============================================================================
 # ## Outliers and influence points 
 # =============================================================================
 
@@ -84,7 +85,6 @@ plt.xlabel('index')
 ### Checking some potential outilers points 
 util_formula.meaning(train).iloc[c.argmax()]
 
-
 util_formula.meaning(train).loc['1883 NE']
 util_formula.meaning(train).loc['1724 NE']
 util_formula.meaning(train).loc['1008 NE']
@@ -102,6 +102,7 @@ util_formula.meaning(train).loc['173 TX']
 # =============================================================================
 # # Collinearity
 # =============================================================================
+
 # pair plot of some variables of interest
 sns.set(font_scale=1)
 b=sns.pairplot(data=train[Features],diag_kind='kde',height=2, 
@@ -116,6 +117,7 @@ for i in range(6):
 # =============================================================================
 # Which to choose ? 
 # =============================================================================
+
 nfold = 10
 kf = KFold(nfold, shuffle=True)
 
@@ -163,25 +165,25 @@ Features_fw=['RHI225214',  ## sqrt
  'RHI625214',   
  'INC910213',
  'HSG495213',
- 'SBO415207', ## too much 0  'Hispanic-owned firms, percent, 2007',
- 'EDU685213', ## not normal
+ 'SBO415207', 
+ 'EDU685213', 
  'AGE775214',
  'PST120214',
  'RHI825214',
  'LND110210',
  'SEX255214',
- 'SBO315207', ## too much 0  'Black-owned firms, percent, 2007',
- 'RHI425214', ## log
+ 'SBO315207', 
+ 'RHI425214', 
  'POP645213',
 # 'AGE135214', ##pvalue= 0.976 
  'HSD310213',
  'POP715213',
- 'RHI325214', ## clustered values around 0  'American Indian and Alaska Native alone, percent, 2014', 
+ 'RHI325214',  
  'LFE305213',
  'RHI725214',  
  #'HSG445213',  
- 'HSG096213', ##non const var
- 'POP060210'] #clustered value around 0  'Population per square mile, 2010'
+ 'HSG096213', 
+ 'POP060210']
 
 # collinearity
 for i in range(len(modals_fw.params)):

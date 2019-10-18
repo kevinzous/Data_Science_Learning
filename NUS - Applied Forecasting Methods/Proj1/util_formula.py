@@ -183,10 +183,9 @@ def backward(y, X, data, criterion="AIC", fullmodel = None):
     return model
 
 
-
-
-
-
+"""
+The function computes wsme
+"""
 def wsme(ppred,p,n):
     '''all are single columns 
     'n' column : nber of democratic votes'''  
@@ -322,9 +321,7 @@ def GetDescrCodes(ListofCodes,Dic):
     return [Dic[c] for c in ListofCodes]
 
 
-
 #Replacing codes by indicator names
-    
 county_facts_dictionary = pd.read_csv('data/county_facts_dictionary.csv')
 Dic,Dic_inv={},{}
 for i in range(len(county_facts_dictionary)) :
