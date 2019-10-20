@@ -11,7 +11,6 @@ git push origin master
 #name of the repot: origin and name of the branch: masters
 
 
-
 1 Time - INITIALIZE
 ---------------------------------------------------------------
 ##installer git sur LINUX
