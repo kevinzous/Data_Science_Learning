@@ -1,5 +1,12 @@
 # AzimuthsLearning
 
+A list of ressources/list of ressources that I found very useful:
+
+## Lists
+
+[Useful ressources section of Machine Learning MOOCS Coursera](https://www.coursera.org/learn/machine-learning/resources/NrY2G)
+including : Informative Web Sites/Machine Learning Data Sets/Useful papers
+ 
 ## Repository links :
 
 [data-science-blogs](https://github.com/rushter/data-science-blogs?fbclid=IwAR2rjw3Q2hCLJHLVt3jN685t38O6PpRP3ckPysa2FKCtfNjgEM-fMS-k1yQ)
@@ -28,7 +35,7 @@ Python
 
 [CS 20: Tensorflow for Deep Learning Research](http://web.stanford.edu/class/cs20si/syllabus.html)
 
-[Deep learning Andrew Yang: Coursera]
+[Deep learning and Neural Networks, Andrew Yang: Coursera]
 
 [Machine Learning, Coursera, Stanford]
 
@@ -40,6 +47,9 @@ Python
 
 [DataVis Battle Entry: Getting to know my Pokémon](https://towardsdatascience.com/reddit-datavis-entry-getting-to-know-my-pok%C3%A9mon-e0bcf4b4b803)
 
-## Podcasts (on Spotify)
+[Data Science Workflow: Overview and Challenges](https://cacm.acm.org/blogs/blog-cacm/169199-data-science-workflow-overview-and-challenges/fulltext)
+
+
+## Other ways of learning
 [Data skeptic on spotify (entry level)](https://open.spotify.com/show/1BZN7H3ikovSejhwQTzNm4)
 
