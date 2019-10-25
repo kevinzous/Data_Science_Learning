@@ -62,7 +62,7 @@ plt.plot(train.TrafficVolume)
 plt.title('TrafficVolume by time')
 
 fig = plt.figure(figsize=(20,6))
-plt.plot(train['2016':].TrafficVolume)S
+plt.plot(train['2016':].TrafficVolume)
 plt.title('TrafficVolume by time for 2 years')
 
 fig = plt.figure(figsize=(20,6))

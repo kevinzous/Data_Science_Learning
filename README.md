@@ -30,15 +30,17 @@ including : Informative Web Sites/Machine Learning Data Sets/Useful papers
 
 
 ## Course
-[Tensorflow](https://developers.google.com/machine-learning/crash-course/)
+□ [Tensorflow](https://developers.google.com/machine-learning/crash-course/)
 
-[CS 20: Tensorflow for Deep Learning Research](http://web.stanford.edu/class/cs20si/syllabus.html)
+□ [CS 20: Tensorflow for Deep Learning Research](http://web.stanford.edu/class/cs20si/syllabus.html)
 
 ☑ [Neural Networks and Deep Learning, deeplearning.ai, Coursera](https://www.coursera.org/learn/neural-networks-deep-learning/home/welcome)
 
 ☑ [Machine Learning, Stanford, Coursera](https://www.coursera.org/learn/machine-learning/home/welcome)
 
 ## Readings
+[MATHEMATICSFORMACHINE LEARNING](https://mml-book.github.io/book/mml-book.pdf)
+
 [Everything a Data Scientist Should Know About Data Management](https://towardsdatascience.com/everything-a-data-scientist-should-know-about-data-management-6877788c6a42)
 
 [Data Scientists, The 5 Graph Algorithms that you should know](https://towardsdatascience.com/data-scientists-the-five-graph-algorithms-that-you-should-know-30f454fa5513)
