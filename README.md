@@ -34,9 +34,9 @@ including : Informative Web Sites/Machine Learning Data Sets/Useful papers
 
 [CS 20: Tensorflow for Deep Learning Research](http://web.stanford.edu/class/cs20si/syllabus.html)
 
-[Deep learning and Neural Networks, Andrew Yang: Coursera]
+☑ [Neural Networks and Deep Learning, deeplearning.ai, Coursera](https://www.coursera.org/learn/neural-networks-deep-learning/home/welcome)
 
-[Machine Learning, Coursera, Stanford]
+☑ [Machine Learning, Stanford, Coursera](https://www.coursera.org/learn/machine-learning/home/welcome)
 
 ## Readings
 [Everything a Data Scientist Should Know About Data Management](https://towardsdatascience.com/everything-a-data-scientist-should-know-about-data-management-6877788c6a42)
