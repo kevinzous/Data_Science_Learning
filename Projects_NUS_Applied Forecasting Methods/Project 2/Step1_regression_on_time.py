@@ -82,9 +82,11 @@ pd.Timestamp('2016-03-12').day_name() #Saturday and Sunday lowest traffic
 #3 days
 fig = plt.figure(figsize=(20,6))
 plt.plot(train['2016-03-04':'2016-03-07'].TrafficVolume)
+plt.title('TrafficVolume by time for 3 days')
 #1 day
 fig = plt.figure(figsize=(20,6))
 plt.plot(train['2016-03-04'].TrafficVolume)
+plt.title('TrafficVolume by time for 1 day')
 
 
 ##Daily trend : peak 7-17
@@ -186,7 +188,9 @@ modelfull.rsquared_adj  #0.8455436886541244
 modelfull.aic #647034.5910585566
 
 ##foward  selection
-modelfwd=forward('TrafficVolume', possible_feature, train1, criterion="AIC", fullmodel = None) ##FWD in the following order :['C(hour)', 'C(dayofweek)', 'C(dayofyear)', 'C(weekofyear)', 'C(dayofmonth)', 'C(monthofyear)', 'index_no', 'year', 'weekofyear']
+#modelfwd=forward('TrafficVolume', possible_feature, train1, criterion="AIC", fullmodel = None) ##FWD in the following order
+possible_feature=['C(hour)', 'C(dayofweek)', 'C(dayofyear)', 'C(weekofyear)', 'C(dayofmonth)', 'C(monthofyear)', 'index_no', 'year', 'weekofyear']
+modelfwd=modelFitting('TrafficVolume', possible_feature, train1)
 
 modelfwd.rsquared_adj #0.8455436886541244
 modelfwd.aic #647034.5910585565
