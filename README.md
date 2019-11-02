@@ -4,12 +4,13 @@ A list of ressources/list of ressources that I found very useful:
 
 ## Lists
 [Useful ressources section of Machine Learning MOOCS Coursera](https://www.coursera.org/learn/machine-learning/resources/NrY2G)
+
 including : Informative Web Sites/Machine Learning Data Sets/Useful papers
  
 ## Repository links
 
 ### Cheat sheets 
-[Cheet sheets(Maths,Machine learning,Deeplearning)](https://github.com/afshinea/stanford-cs-229-machine-learning?fbclid=IwAR0UvmdWFmvk9UarO6Lpx6kXGqwpnEJ9KwySLtGDVeNnyCd82l8bideaUDc)
+[Cheet sheets(Maths, Machine learning, Deeplearning)](https://github.com/afshinea/stanford-cs-229-machine-learning?fbclid=IwAR0UvmdWFmvk9UarO6Lpx6kXGqwpnEJ9KwySLtGDVeNnyCd82l8bideaUDc)
 
 [Cheet sheets(Deeplearning)](https://github.com/afshinea/stanford-cs-230-deep-learning/blob/master/en/super-cheatsheet-deep-learning.pdf)
 
@@ -27,14 +28,16 @@ including : Informative Web Sites/Machine Learning Data Sets/Useful papers
 [coding-interview-university](https://github.com/jwasham/coding-interview-university)
 
 ## Course
-□ [Tensorflow](https://developers.google.com/machine-learning/crash-course/)p
+□ [Tensorflow](https://developers.google.com/machine-learning/crash-course/)
+
 □ [CS 20: Tensorflow for Deep Learning Research](http://web.stanford.edu/class/cs20si/syllabus.html)
- 
+
 ☑ [Neural Networks and Deep Learning, deeplearning.ai, Coursera](https://www.coursera.org/learn/neural-networks-deep-learning/home/welcome): in python
+
 ☑ [Machine Learning, Stanford, Coursera](https://www.coursera.org/learn/machine-learning/home/welcome): in matlab
 
 ## Readings and books 
-[MATHEMATICSFORMACHINE LEARNING](https://mml-book.github.io/book/mml-book.pdf)
+[MATHEMATICS FOR MACHINE LEARNING](https://mml-book.github.io/book/mml-book.pdf)
 
 [Everything a Data Scientist Should Know About Data Management](https://towardsdatascience.com/everything-a-data-scientist-should-know-about-data-management-6877788c6a42)
 
