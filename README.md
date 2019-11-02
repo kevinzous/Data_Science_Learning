@@ -1,8 +1,8 @@
 # AzimuthsLearning
 
-A list of ressources/list of ressources that I found very useful:
+A list of ressources that I found very useful:
 
-## Learning (courses, ebooks..) 
+## 1-Learning (courses, ebooks..) 
 [learning](https://github.com/amitness/learning): almost exhaustive list of online courses + some e-books 
 
 [Learn_Data_Science_in_3_Months](https://github.com/llSourcell/Learn_Data_Science_in_3_Months): 3-month learning plan
@@ -21,13 +21,13 @@ A list of ressources/list of ressources that I found very useful:
 
 ☑ [Machine Learning, Stanford, Coursera](https://www.coursera.org/learn/machine-learning/home/welcome): in matlab
 
-## Cheat sheets
+## 2-Cheat sheets
 [Cheet sheets(Maths, Machine learning, Deeplearning)](https://github.com/afshinea/stanford-cs-229-machine-learning?fbclid=IwAR0UvmdWFmvk9UarO6Lpx6kXGqwpnEJ9KwySLtGDVeNnyCd82l8bideaUDc): by afshinea for CS 229 Stanford ML Course
 
 [Cheet sheets(Deeplearning)](https://github.com/afshinea/stanford-cs-230-deep-learning/blob/master/en/super-cheatsheet-deep-learning.pdf): by afshinea for CS 230 Stanford DL Course
 
 
-## Annexes and extra ressources 
+## 3-Annexes and extra ressources 
 [Useful ressources section of ML MOOCS, Coursera](https://www.coursera.org/learn/machine-learning/resources/NrY2G): 
 Informative Web Sites/Machine Learning Data Sets/ Useful papers
 
@@ -35,11 +35,11 @@ Informative Web Sites/Machine Learning Data Sets/ Useful papers
 
 [awesome-python](https://github.com/vinta/awesome-python): curated list of Python frameworks, libraries, ressources... 
 
-## Other ways of learning
+## 4-Other ways of learning
 
 [Data skeptic on spotify (entry level)](https://open.spotify.com/show/1BZN7H3ikovSejhwQTzNm4)
 
-### Funny, insightful articles 
+### 4-1-Funny, insightful articles 
 [DataVis Battle Entry: Getting to know my Pokémon](https://towardsdatascience.com/reddit-datavis-entry-getting-to-know-my-pok%C3%A9mon-e0bcf4b4b803)
 
 [Everything a Data Scientist Should Know About Data Management](https://towardsdatascience.com/everything-a-data-scientist-should-know-about-data-management-6877788c6a42)
@@ -49,5 +49,5 @@ Informative Web Sites/Machine Learning Data Sets/ Useful papers
 [Data Science Workflow: Overview and Challenges](https://cacm.acm.org/blogs/blog-cacm/169199-data-science-workflow-overview-and-challenges/fulltext)
 
 
-## Interview preparation
+## 5-Interview preparation
 [coding-interview-university](https://github.com/jwasham/coding-interview-university)
