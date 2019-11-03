@@ -32,13 +32,28 @@ train.loc['2017-02-28 23'] ##gives 2 values
 
 #date columns remove the hour of the date time index
 train['date'] = [train.index[i].date() for i in range(0,len(train))]
+train['year'] = [train.index[i].year for i in range(0,len(train))]
+train['month'] = [train.index[i].month for i in range(0,len(train))]
+train['day'] = [train.index[i].day for i in range(0,len(train))]
+train['hour'] = [train.index[i].hour for i in range(0,len(train))]
+
+
+#count by year / month 
+train['year'].value_counts()
+train['2017']['month'].value_counts()
+
+(train['2017'].groupby(['month','day']).size()<24).sum()
+
 
 #count number of values by day 
 train[['date','TrafficVolume']].groupby(by='date').count().sort_values(by='TrafficVolume') #values ranges from 81 to 1
 train.loc['2012-12-16'] ## 81 
+train.loc['2012-12-16 10:00'] ##for a same hour, only the weathermain and weather description changes, Temp and Traffic vol remain the same 
+
 train.loc['2013-08-31']
 #### for Temparature, we have one temp per hour, for weather each time it changes, we have a new values 
 
+(train[['date','TrafficVolume']].groupby(by=['Time','TrafficVolume']).first().reset_index()).groupby(by='date').count().sort_values(by='TrafficVolume')
 
 ##same for test set : 
 test['date'] = [test.index[i].date() for i in range(0,len(test))]
@@ -46,9 +61,12 @@ test['date'] = [test.index[i].date() for i in range(0,len(test))]
 #count number of values by day 
 test[['date','TrafficVolume']].groupby(by='date').count().sort_values(by='TrafficVolume') #values ranges from 81 to 1
 
+
+train.resample('H').first()['TrafficVolume'].isnull().sum()
+##we can use (‘ffil’ or forward fill) 
+
 dates = pd.date_range(start='2012-01-01',end='2017-01-01',freq='H')
 df = pd.DataFrame(np.random.randn(len(dates), 1), index=dates, columns=['A'])
-monthly_mean = df.resample('M').mean()
 
 # =============================================================================
 # stationarity test KPSS
@@ -92,10 +110,38 @@ for key, value in result[4].items():
     print(f'   {key}, {value}')
 ## null hypothesis rejected, meaning that the datasets is stationary ! 
 
-
 # =============================================================================
 # differencing if not stationary
 # =============================================================================
+alpha=0.05 ## 95 % for the confidence window
+lags=80
+
+# take the first regular difference
+
+y='TrafficVolume'
+
+data = train[y] - train[y].shift(1)
+data.dropna(inplace=True)
+fig, ax = plt.subplots(1,2,figsize=(12,6))
+fig = sgt.plot_acf(data, ax=ax[0], lags=lags, alpha=alpha, unbiased=True)
+fig = sgt.plot_pacf(data, ax=ax[1], lags=lags, alpha=alpha, method='ols')
+
+L=24
+
+# take the first seasonal difference
+data = train[y] - train[y].shift(L)
+data.dropna(inplace=True)
+fig, ax = plt.subplots(1,2,figsize=(12,6))
+fig = sgt.plot_acf(data, ax=ax[0], lags=lags, alpha=alpha, unbiased=True)
+fig = sgt.plot_pacf(data, ax=ax[1], lags=lags, alpha=alpha, method='ols')
+
+# take the first regular and seasonal difference
+data = train[y] - train[y].shift(1) - (train[y].shift(L) - train[y].shift(L+1))
+data.dropna(inplace=True)
+fig, ax = plt.subplots(1,2,figsize=(12,6))
+fig = sgt.plot_acf(data, ax=ax[0], lags=lags, alpha=alpha, unbiased=True)
+fig = sgt.plot_pacf(data, ax=ax[1], lags=lags, alpha=alpha, method='ols')
+
 
 # plot the moving average/std with window size = period
 df=train
@@ -117,14 +163,15 @@ ax[1].scatter(x=range(0,dif2.shape[0]), y=dif2[y])
 ax[1].axis('tight')
 plt.show()
 
+
+
 # =============================================================================
 #  Estimating ARMA parameters 
 # =============================================================================
 # =============================================================================
 # ACF AND PACF
 # =============================================================================
-alpha=0.05 ## 95 % for the confidence window
-lags=150
+
 y='TrafficVolume'
 df=train[[y]]  ##double bracket to have a dataframe type instead of series type
 
