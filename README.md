@@ -1,6 +1,6 @@
 # AzimuthsLearning
 
-A list of ressources that I found very useful:
+A list of resources that I found very useful:
 
 ## 1-Learning (courses, ebooks..) 
 [learning](https://github.com/amitness/learning): almost exhaustive list of online courses + some e-books 
@@ -11,7 +11,7 @@ A list of ressources that I found very useful:
 
 [free-programming-books](https://github.com/EbookFoundation/free-programming-books)
 
-□ [MATHEMATICS FOR MACHINE LEARNING](https://mml-book.github.io/book/mml-book.pdf)
+□ [Mathematics for machine learning](https://mml-book.github.io/book/mml-book.pdf)
 
 □ [Tensorflow](https://developers.google.com/machine-learning/crash-course/)
 
@@ -27,8 +27,8 @@ A list of ressources that I found very useful:
 [Cheet sheets(Deeplearning)](https://github.com/afshinea/stanford-cs-230-deep-learning/blob/master/en/super-cheatsheet-deep-learning.pdf): by afshinea for CS 230 Stanford DL Course
 
 
-## 3-Annexes and extra ressources 
-[Useful ressources section of ML MOOCS, Coursera](https://www.coursera.org/learn/machine-learning/resources/NrY2G): 
+## 3-Annexes and extra resources 
+[Useful resources section of ML MOOCS, Coursera](https://www.coursera.org/learn/machine-learning/resources/NrY2G): 
 Informative Web Sites/Machine Learning Data Sets/ Useful papers
 
 [data-science-blogs](https://github.com/rushter/data-science-blogs?fbclid=IwAR2rjw3Q2hCLJHLVt3jN685t38O6PpRP3ckPysa2FKCtfNjgEM-fMS-k1yQ)
