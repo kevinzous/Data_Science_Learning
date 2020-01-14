@@ -3,23 +3,27 @@
 A list of resources that I found very useful:
 
 ## 1-Learning (courses, ebooks..) 
-[learning](https://github.com/amitness/learning): almost exhaustive list of online courses + some e-books 
-
-[Learn_Data_Science_in_3_Months](https://github.com/llSourcell/Learn_Data_Science_in_3_Months): 3-month learning plan
+[learning](https://github.com/amitness/learning): list of online courses + some e-books 
 
 [ossu/data-science](https://github.com/ossu/data-science#curriculum)
 
 [free-programming-books](https://github.com/EbookFoundation/free-programming-books)
 
-□ [Mathematics for machine learning](https://mml-book.github.io/book/mml-book.pdf)
+[Mathematics for machine learning](https://mml-book.github.io/book/mml-book.pdf)
 
-□ [Tensorflow](https://developers.google.com/machine-learning/crash-course/)
+[Tensorflow](https://developers.google.com/machine-learning/crash-course/)
 
-□ [CS 20: Tensorflow for Deep Learning Research](http://web.stanford.edu/class/cs20si/syllabus.html)
+[CS 20: Tensorflow for Deep Learning Research](http://web.stanford.edu/class/cs20si/syllabus.html)
 
-☑ [Neural Networks and Deep Learning, deeplearning.ai, Coursera](https://www.coursera.org/learn/neural-networks-deep-learning/home/welcome): in python
+☑ [Machine Learning, Stanford, Coursera](https://www.coursera.org/learn/machine-learninfg/home/welcome) in matlab
+Pros : 
+-one of the first and best courses in ML
+-theory-driven and in-depth coverage of algorithms 
+Cons : 
+-taught in Matlab/Octave (more research oriented language)
+-courses made in 2011, no cutting-edge/industry-standard applications using ML
 
-☑ [Machine Learning, Stanford, Coursera](https://www.coursera.org/learn/machine-learning/home/welcome): in matlab
+☑ [Neural Networks and Deep Learning, deeplearning.ai, Coursera](https://www.coursera.org/learn/neural-networks-deep-learning/home/welcome) in python
 
 ## 2-Cheat sheets
 [Cheet sheets(Maths, Machine learning, Deeplearning)](https://github.com/afshinea/stanford-cs-229-machine-learning?fbclid=IwAR0UvmdWFmvk9UarO6Lpx6kXGqwpnEJ9KwySLtGDVeNnyCd82l8bideaUDc): by afshinea for CS 229 Stanford ML Course
