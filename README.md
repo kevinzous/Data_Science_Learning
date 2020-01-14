@@ -14,19 +14,19 @@ github repo
 
 [Tensorflow](https://developers.google.com/machine-learning/crash-course/): crash course by Google 
 
-[CS 20: Tensorflow for Deep Learning Research](http://web.stanford.edu/class/cs20si/syllabus.html): MOOCS 
+[] [CS 20: Tensorflow for Deep Learning Research](http://web.stanford.edu/class/cs20si/syllabus.html): MOOCS 
 
-
-☑ [Machine Learning, Stanford, Coursera](https://www.coursera.org/learn/machine-learninfg/home/welcome) <br />
-Pros : <br />
+[x] [Machine Learning, Stanford, Coursera](https://www.coursera.org/learn/machine-learninfg/home/welcome) <br />
+**Pros** : <br />
 -one of the first and best courses in ML <br />
 -theory-driven and in-depth coverage of algorithms <br />
-Cons : <br />
+**Cons** : <br />
 -taught in Matlab/Octave (more research oriented language) <br />
 -courses made in 2011, no cutting-edge/industry-standard applications using ML <br />
+**Useful resources section of ML MOOCS, Coursera** [link](https://www.coursera.org/learn/machine-learning/resources/NrY2G):  <br />
+Informative Web Sites/Machine Learning Data Sets/ Useful papers
 
-
-☑ [Neural Networks and Deep Learning, deeplearning.ai, Coursera](https://www.coursera.org/learn/neural-networks-deep-learning/home/welcome) in python
+[x] [Neural Networks and Deep Learning, deeplearning.ai, Coursera](https://www.coursera.org/learn/neural-networks-deep-learning/home/welcome) in python
 
 ## 2-Cheat sheets
 [Cheet sheets(Maths, Machine learning, Deeplearning)](https://github.com/afshinea/stanford-cs-229-machine-learning?fbclid=IwAR0UvmdWFmvk9UarO6Lpx6kXGqwpnEJ9KwySLtGDVeNnyCd82l8bideaUDc): by afshinea for CS 229 Stanford ML Course
@@ -35,8 +35,6 @@ Cons : <br />
 
 
 ## 3-Annexes and extra resources 
-[Useful resources section of ML MOOCS, Coursera](https://www.coursera.org/learn/machine-learning/resources/NrY2G): 
-Informative Web Sites/Machine Learning Data Sets/ Useful papers
 
 [rushter/data-science-blogs](https://github.com/rushter/data-science-blogs?fbclid=IwAR2rjw3Q2hCLJHLVt3jN685t38O6PpRP3ckPysa2FKCtfNjgEM-fMS-k1yQ): github repo of lists of data science blogs
 
