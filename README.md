@@ -24,10 +24,13 @@ github repo
 **Cons** : <br />
 -taught in Matlab/Octave (more research-oriented language than Python) <br />
 -course made in 2011, no cutting-edge/industry-standard applications using ML <br />
-**Useful resources section of ML MOOCS, Coursera** [link](https://www.coursera.org/learn/machine-learning/resources/NrY2G):  <br />
-Informative Web Sites/Machine Learning Data Sets/ Useful papers
-
-- [x] [Neural Networks and Deep Learning, deeplearning.ai, Coursera](https://www.coursera.org/learn/neural-networks-deep-learning/home/welcome) in python
+**Useful resources section**: [link](https://www.coursera.org/learn/machine-learning/resources/NrY2G) <br />
+-Informative Web Sites <br />
+-Machine Learning Data Sets <br />
+-Useful papers <br />
+**Assignments and Project solutions** : [repo link](https://github.com/kevinzous/AzimuthsLearning/tree/master/MOOCS2_Deep_Learning_Deeplearningai) <br />
+- [x] [Neural Networks and Deep Learning, deeplearning.ai, Coursera](https://www.coursera.org/learn/neural-networks-deep-learning/home/welcome) in python <br />
+**Assignments and Project solutions**: [repo link](https://github.com/kevinzous/AzimuthsLearning/tree/master/MOOCS1_Machine%20Learning_Stanford)
 
 ### 1-b) Cheat sheets
 [Cheet sheets(Maths, Machine learning, Deeplearning)](https://github.com/afshinea/stanford-cs-229-machine-learning?fbclid=IwAR0UvmdWFmvk9UarO6Lpx6kXGqwpnEJ9KwySLtGDVeNnyCd82l8bideaUDc): by afshinea for CS 229 Stanford ML Course
