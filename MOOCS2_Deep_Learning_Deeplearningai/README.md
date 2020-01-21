@@ -1,4 +1,4 @@
-This text file summarizes the content learnt in the Deep Learning specialization from deeplearning.ai through 2 points :
+This text file summarizes the content learnt in the Deep Learning specialization from deeplearning.ai for personal referencing purposes through 2 points :
 the objectives of the course and the projects implemented in assignements.
 ***
 
