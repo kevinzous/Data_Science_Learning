@@ -1,3 +1,6 @@
+This text file summarize the content learnt in the Deep Learning specialization from deeplearning.ai through 2 points :
+the objectives of the course and the projects implemented in assignements.
+
 
 `Course : 1-Neural networks and deep learning` 
 
