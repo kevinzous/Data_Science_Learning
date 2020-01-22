@@ -1,4 +1,5 @@
 Studied structure :
+(all pictures are from the Coursera Deep learning specialization course)
 
 RNN cells 
 
