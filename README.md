@@ -3,19 +3,7 @@
 A list of resources that I found very useful:
 
 ## 1- Learning Ressources
-### 1-a) Courses, ebooks (links or github repo)
-[amitness/learning](https://github.com/amitness/learning) - github repo containing a quite exhaustive list of online courses + e-books 
-
-[ossu/data-science](https://github.com/ossu/data-science#curriculum) - github repo
-
-[EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) - github repo
-
-[Mathematics for machine learning](https://mml-book.github.io/book/mml-book.pdf) - ebook on mathematics for ML
-
-[Tensorflow](https://developers.google.com/machine-learning/crash-course/) - crash course by Google 
-
-- [ ] [CS 20: Tensorflow for Deep Learning Research](http://web.stanford.edu/class/cs20si/syllabus.html) - MOOCS 
-
+### 1-a) Courses
 - [x] [Machine Learning, Stanford, Coursera](https://www.coursera.org/learn/machine-learninfg/home/welcome) <br />
 **Pros** : <br />
 -one of the first and best courses in ML <br />
@@ -28,21 +16,26 @@ A list of resources that I found very useful:
 -Machine Learning Data Sets <br />
 -Useful papers <br />
 **Assignment and Project solutions** : [repo link](https://github.com/kevinzous/AzimuthsLearning/tree/master/MOOCS2_Deep_Learning_Deeplearningai) <br />
+
 - [x] [Neural Networks and Deep Learning, deeplearning.ai, Coursera](https://www.coursera.org/learn/neural-networks-deep-learning/home/welcome) in python <br />
 **Assignment and Project solutions**: [repo link](https://github.com/kevinzous/AzimuthsLearning/tree/master/MOOCS1_Machine%20Learning_Stanford)
 
-### 1-b) Cheat sheets
-- [Statistics](http://web.mit.edu/~csvoss/Public/usabo/stats_handout.pdf) 
-- [Probability](https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf)
-- [Calculus](http://tutorial.math.lamar.edu/pdf/Calculus_Cheat_Sheet_All.pdf)
-- [Linear Algebra](https://www.souravsengupta.com/cds2016/lectures/Savov_Notes.pdf)
+- [ ] [Tensorflow](https://developers.google.com/machine-learning/crash-course/) - crash course by Google 
 
-- [CS 229 Stanford ML Course (Maths, Machine learning, Deeplearning)](https://github.com/afshinea/stanford-cs-229-machine-learning?fbclid=IwAR0UvmdWFmvk9UarO6Lpx6kXGqwpnEJ9KwySLtGDVeNnyCd82l8bideaUDc)
-- [CS 230 Stanford DL Course (Deeplearning)](https://github.com/afshinea/stanford-cs-230-deep-learning/blob/master/en/super-cheatsheet-deep-learning.pdf)
+- [ ] [CS 20: Tensorflow for Deep Learning Research](http://web.stanford.edu/class/cs20si/syllabus.html) - MOOCS 
 
-### 1-d) Research Papers 
+### 1-b) Github repos, ebooks
+[amitness/learning](https://github.com/amitness/learning) - github repo containing a quite exhaustive list of online courses + e-books 
 
-### 1-c) Extra resources 
+[ossu/data-science](https://github.com/ossu/data-science#curriculum) - github repo
+
+[EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) - github repo
+
+[Mathematics for machine learning](https://mml-book.github.io/book/mml-book.pdf) - ebook on mathematics for ML
+
+### 1-c) Research Papers 
+
+### 1-d) Extra resources 
 [rushter/data-science-blogs](https://github.com/rushter/data-science-blogs?fbclid=IwAR2rjw3Q2hCLJHLVt3jN685t38O6PpRP3ckPysa2FKCtfNjgEM-fMS-k1yQ): github repo of lists of data science blogs
 
 [vinta/awesome-python](https://github.com/vinta/awesome-python): curated list of Python frameworks, libraries, ressources... 
@@ -63,6 +56,17 @@ A list of resources that I found very useful:
 
 
 ## 2- Interview preparation
+
+### 2-a) Cheat sheets
+- [Statistics](http://web.mit.edu/~csvoss/Public/usabo/stats_handout.pdf) 
+- [Probability](https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf)
+- [Calculus](http://tutorial.math.lamar.edu/pdf/Calculus_Cheat_Sheet_All.pdf)
+- [Linear Algebra](https://www.souravsengupta.com/cds2016/lectures/Savov_Notes.pdf)
+
+- [CS 229 Stanford ML Course (Maths, Machine learning, Deeplearning)](https://github.com/afshinea/stanford-cs-229-machine-learning?fbclid=IwAR0UvmdWFmvk9UarO6Lpx6kXGqwpnEJ9KwySLtGDVeNnyCd82l8bideaUDc)
+- [CS 230 Stanford DL Course (Deeplearning)](https://github.com/afshinea/stanford-cs-230-deep-learning/blob/master/en/super-cheatsheet-deep-learning.pdf)
+
+### 2-b) Coding interviews
 [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - github repo for interview preparation
 
 
