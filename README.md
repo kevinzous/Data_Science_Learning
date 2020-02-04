@@ -11,7 +11,8 @@ A list of resources that I found very useful:
 **Cons** : <br />
 -taught in Matlab/Octave (more research-oriented language than Python) <br />
 -course made in 2011, introduction-level course to ML <br />
-**Useful resources section** : (Informative Websites / ML Datasets / Useful papers) [link](https://www.coursera.org/learn/machine-learning/resources/NrY2G) <br />
+**Useful resources section** : [link](https://www.coursera.org/learn/machine-learning/resources/NrY2G) <br />
+-Informative Websites / ML Datasets / Useful papers <br />
 **Assignment and Project solutions** : [repo link](https://github.com/kevinzous/AzimuthsLearning/tree/master/MOOCS2_Deep_Learning_Deeplearningai) <br />
 
 - [x] [Deep Learning specialization, deeplearning.ai, Coursera](https://www.coursera.org/specializations/deep-learning) in python <br />
