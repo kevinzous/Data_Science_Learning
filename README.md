@@ -17,7 +17,9 @@ A list of resources that I found very useful:
 -Useful papers <br />
 **Assignment and Project solutions** : [repo link](https://github.com/kevinzous/AzimuthsLearning/tree/master/MOOCS2_Deep_Learning_Deeplearningai) <br />
 
-- [x] [Neural Networks and Deep Learning, deeplearning.ai, Coursera](https://www.coursera.org/learn/neural-networks-deep-learning/home/welcome) in python <br />
+- [x] [Deep Learning specialization, deeplearning.ai, Coursera](https://www.coursera.org/specializations/deep-learning) in python <br />
+**Pros** : <br />
+**Cons** : <br />
 **Assignment and Project solutions**: [repo link](https://github.com/kevinzous/AzimuthsLearning/tree/master/MOOCS1_Machine%20Learning_Stanford)
 
 - [ ] [Tensorflow](https://developers.google.com/machine-learning/crash-course/) - crash course by Google 
