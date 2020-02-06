@@ -35,6 +35,8 @@ A list of resources that I found very useful:
 
 ### 1-c) Research Papers 
 
+[Coursera: Convolutional Neural Networks Papers](https://gist.github.com/rubychilds/d9137168d0843f4a8071727e67a5816c)
+
 ### 1-d) Extra resources 
 [rushter/data-science-blogs](https://github.com/rushter/data-science-blogs?fbclid=IwAR2rjw3Q2hCLJHLVt3jN685t38O6PpRP3ckPysa2FKCtfNjgEM-fMS-k1yQ): github repo of lists of data science blogs
 
