@@ -49,8 +49,6 @@ A list of resources that I found very useful:
 -Podcast of entry level : MINI series <br />
 -Podcast of intermediate to advanced level : interviews with ML experts
 
-[DataVis Battle Entry: Getting to know my Pokémon](https://towardsdatascience.com/reddit-datavis-entry-getting-to-know-my-pok%C3%A9mon-e0bcf4b4b803)
-
 [Everything a Data Scientist Should Know About Data Management](https://towardsdatascience.com/everything-a-data-scientist-should-know-aboutsedata-management-6877788c6a42)
 
 [Data Scientists, The 5 Graph Algorithms that you should know](https://towardsdatascience.com/data-scientists-the-five-graph-algorithms-that-you-should-know-30f454fa5513)
