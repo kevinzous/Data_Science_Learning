@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="488f4fcf-4d87-4c25-9675-a778dee7a8b1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="M5 Forecasting" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZVERoI05pJ7tdQTjEohID8BWRT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="M5 Forecasting" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="488f4fcf-4d87-4c25-9675-a778dee7a8b1" name="Default Changelist" comment="" />
+      <created>1584915856211</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584915856211</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1256" height="194" key="GridCell.Tab.0.bottom" timestamp="1584918448478">
+      <screen x="0" y="27" width="1280" height="692" />
+    </state>
+    <state width="1256" height="194" key="GridCell.Tab.0.bottom/0.27.1280.692@0.27.1280.692" timestamp="1584918448478" />
+    <state width="1256" height="194" key="GridCell.Tab.0.center" timestamp="1584918448478">
+      <screen x="0" y="27" width="1280" height="692" />
+    </state>
+    <state width="1256" height="194" key="GridCell.Tab.0.center/0.27.1280.692@0.27.1280.692" timestamp="1584918448478" />
+    <state width="1256" height="194" key="GridCell.Tab.0.left" timestamp="1584918448477">
+      <screen x="0" y="27" width="1280" height="692" />
+    </state>
+    <state width="1256" height="194" key="GridCell.Tab.0.left/0.27.1280.692@0.27.1280.692" timestamp="1584918448477" />
+    <state width="1256" height="194" key="GridCell.Tab.0.right" timestamp="1584918448478">
+      <screen x="0" y="27" width="1280" height="692" />
+    </state>
+    <state width="1256" height="194" key="GridCell.Tab.0.right/0.27.1280.692@0.27.1280.692" timestamp="1584918448478" />
+    <state width="1256" height="194" key="GridCell.Tab.1.bottom" timestamp="1584918448479">
+      <screen x="0" y="27" width="1280" height="692" />
+    </state>
+    <state width="1256" height="194" key="GridCell.Tab.1.bottom/0.27.1280.692@0.27.1280.692" timestamp="1584918448479" />
+    <state width="1256" height="194" key="GridCell.Tab.1.center" timestamp="1584918448479">
+      <screen x="0" y="27" width="1280" height="692" />
+    </state>
+    <state width="1256" height="194" key="GridCell.Tab.1.center/0.27.1280.692@0.27.1280.692" timestamp="1584918448479" />
+    <state width="1256" height="194" key="GridCell.Tab.1.left" timestamp="1584918448479">
+      <screen x="0" y="27" width="1280" height="692" />
+    </state>
+    <state width="1256" height="194" key="GridCell.Tab.1.left/0.27.1280.692@0.27.1280.692" timestamp="1584918448479" />
+    <state width="1256" height="194" key="GridCell.Tab.1.right" timestamp="1584918448479">
+      <screen x="0" y="27" width="1280" height="692" />
+    </state>
+    <state width="1256" height="194" key="GridCell.Tab.1.right/0.27.1280.692@0.27.1280.692" timestamp="1584918448479" />
+    <state x="-17" y="17" width="997" height="692" key="SettingsEditor" timestamp="1584916970044">
+      <screen x="0" y="27" width="1280" height="692" />
+    </state>
+    <state x="-17" y="17" width="997" height="692" key="SettingsEditor/0.27.1280.692@0.27.1280.692" timestamp="1584916970044" />
+    <state width="498" height="398" key="SwitcherDM" timestamp="1585067662743">
+      <screen x="0" y="27" width="1280" height="692" />
+    </state>
+    <state width="498" height="398" key="SwitcherDM/0.27.1280.692@0.27.1280.692" timestamp="1585067662743" />
+    <state x="353" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1585586533462">
+      <screen x="0" y="27" width="1280" height="692" />
+    </state>
+    <state x="353" y="170" key="com.intellij.ide.util.TipDialog/0.27.1280.692@0.27.1280.692" timestamp="1585586533462" />
+    <state x="398" y="17" width="479" height="692" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585068021381">
+      <screen x="0" y="27" width="1280" height="692" />
+    </state>
+    <state x="398" y="17" width="479" height="692" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1280.692@0.27.1280.692" timestamp="1585068021381" />
+    <state x="289" y="78" width="700" height="530" key="recent.locations.popup" timestamp="1585069291396">
+      <screen x="0" y="27" width="1280" height="692" />
+    </state>
+    <state x="289" y="78" width="700" height="530" key="recent.locations.popup/0.27.1280.692@0.27.1280.692" timestamp="1585069291396" />
+    <state x="303" y="40" key="search.everywhere.popup" timestamp="1585067652122">
+      <screen x="0" y="27" width="1280" height="692" />
+    </state>
+    <state x="303" y="40" key="search.everywhere.popup/0.27.1280.692@0.27.1280.692" timestamp="1585067652122" />
+  </component>
+</project>
