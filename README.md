@@ -1,6 +1,6 @@
 # AzimuthsLearning
 
-A list of resources that I found very useful:
+#LearningProgramme #Agenda #Useful #MachineLearning #DeepLearning 
 
 ## 1- Learning Ressources
 ### 1-a) Courses
