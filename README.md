@@ -25,13 +25,9 @@ A list of resources that I found very useful:
 - [ ] [CS 20: Tensorflow for Deep Learning Research](http://web.stanford.edu/class/cs20si/syllabus.html) - MOOCS 
 
 ### 1-b) Github repos, ebooks
-[amitness/learning](https://github.com/amitness/learning) - github repo containing a quite exhaustive list of online courses + e-books 
+- [ ] [Mathematics for machine learning](https://mml-book.github.io/book/mml-book.pdf) - ebook on mathematics for ML
 
-[ossu/data-science](https://github.com/ossu/data-science#curriculum) - github repo
-
-[EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) - github repo
-
-[Mathematics for machine learning](https://mml-book.github.io/book/mml-book.pdf) - ebook on mathematics for ML
+- [x] [Deep Learning with Python, Francois Chollet](https://www.academia.edu/40318927/Deep_Learning_With_Python_by_Francois_Chollet)
 
 ### 1-c) Research Papers 
 
@@ -39,6 +35,12 @@ A list of resources that I found very useful:
 [Coursera: Sequence Models Papers](https://github.com/iitrsamrat/deeplearning.ai.sequence-model-papers/blob/master/index.md)
 
 ### 1-d) Extra resources 
+[amitness/learning](https://github.com/amitness/learning) - github repo containing a quite exhaustive list of online courses + e-books 
+
+[ossu/data-science](https://github.com/ossu/data-science#curriculum) - github repo
+
+[EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) - github repo
+
 [rushter/data-science-blogs](https://github.com/rushter/data-science-blogs?fbclid=IwAR2rjw3Q2hCLJHLVt3jN685t38O6PpRP3ckPysa2FKCtfNjgEM-fMS-k1yQ): github repo of lists of data science blogs
 
 [vinta/awesome-python](https://github.com/vinta/awesome-python): curated list of Python frameworks, libraries, ressources... 
@@ -68,7 +70,8 @@ A list of resources that I found very useful:
 - [CS 230 Stanford DL Course (Deeplearning)](https://github.com/afshinea/stanford-cs-230-deep-learning/blob/master/en/super-cheatsheet-deep-learning.pdf)
 
 ### 2-b) Coding interviews
-[jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - github repo for interview preparation
+- [LeetCode : Top Interview Questions - Easy collection or 30-Day Leetcoding challenge](https://leetcode.com/explore/featured/card/top-interview-questions-easy/)
+- [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - github repo for interview preparation
 
 
 
