@@ -13,12 +13,12 @@
 -course made in 2011, introduction-level course to ML <br />
 **Useful resources section** : [link](https://www.coursera.org/learn/machine-learning/resources/NrY2G) <br />
 -Informative Websites / ML Datasets / Useful papers <br />
-**Assignment and Project solutions** : [repo link](https://github.com/kevinzous/AzimuthsLearning/tree/master/MOOCS2_Deep_Learning_Deeplearningai) <br />
+**Assignment and Project solutions** : [repo link](https://github.com/kevinzous/AzimuthsLearning/tree/master/MOOCS1_Machine%20Learning_Stanford) <br />
 
 - [x] [Deep Learning specialization, deeplearning.ai, Coursera](https://www.coursera.org/specializations/deep-learning) in python <br />
 **Pros** : <br />
 **Cons** : <br />
-**Assignment and Project solutions**: [repo link](https://github.com/kevinzous/AzimuthsLearning/tree/master/MOOCS1_Machine%20Learning_Stanford)
+**Assignment and Project solutions**: [repo link](https://github.com/kevinzous/AzimuthsLearning/tree/master/MOOCS2_Deep_Learning_Deeplearningai)
 
 - [ ] [Tensorflow](https://developers.google.com/machine-learning/crash-course/) - crash course by Google 
 
