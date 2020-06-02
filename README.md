@@ -24,9 +24,8 @@
 
 - [ ] [CS 20: Tensorflow for Deep Learning Research](http://web.stanford.edu/class/cs20si/syllabus.html) - MOOCS 
 
-### 1-b) Github repos, ebooks
-- [ ] [Mathematics for machine learning](https://mml-book.github.io/book/mml-book.pdf) - ebook on mathematics for ML
-
+### 1-b) ebooks
+- [ ] [Mathematics for machine learning](https://mml-book.github.io/book/mml-book.pdf) 
 - [x] [Deep Learning with Python, Francois Chollet](https://www.academia.edu/40318927/Deep_Learning_With_Python_by_Francois_Chollet)
 
 ### 1-c) Research Papers 
