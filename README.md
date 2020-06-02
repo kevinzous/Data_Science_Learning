@@ -5,20 +5,20 @@
 ## 1- Learning Ressources
 ### 1-a) Courses
 - [x] [Machine Learning, Stanford, Coursera](https://www.coursera.org/learn/machine-learninfg/home/welcome) <br />
-**Pros** : <br />
--one of the first and best courses in ML <br />
--theory-driven and in-depth coverage of algorithms <br />
-**Cons** : <br />
--taught in Matlab/Octave (more research-oriented language than Python) <br />
--course made in 2011, introduction-level course to ML <br />
-**Useful resources section** : [link](https://www.coursera.org/learn/machine-learning/resources/NrY2G) <br />
--Informative Websites / ML Datasets / Useful papers <br />
-**Assignment and Project solutions** : [repo link](https://github.com/kevinzous/AzimuthsLearning/tree/master/MOOCS1_Machine%20Learning_Stanford) <br />
+
+|   | Description |
+|---------|--------------------------------------------------------------------------------------------------------------|
+| **Pros** | - beginner friendly <br /> - one of the first and best courses in ML <br /> - theory-driven and in-depth coverage of algorithms <br /> | 
+| **Cons** | - taught in Matlab/Octave (more research-oriented language than Python) <br /> - course made in 2011, introduction-level course to ML <br /> | 
+| **In Details** | - [Useful resources section](https://www.coursera.org/learn/machine-learning/resources/NrY2G) including informative Websites / ML Datasets / Useful papers <br /> - [**Assignment and Project solutions**](https://github.com/kevinzous/AzimuthsLearning/tree/master/MOOCS1_Machine%20Learning_Stanford) <br /> |
 
 - [x] [Deep Learning specialization, deeplearning.ai, Coursera](https://www.coursera.org/specializations/deep-learning) in python <br />
-**Pros** : <br />
-**Cons** : <br />
-**Assignment and Project solutions**: [repo link](https://github.com/kevinzous/AzimuthsLearning/tree/master/MOOCS2_Deep_Learning_Deeplearningai)
+
+|   | Description |
+|---------|--------------------------------------------------------------------------------------------------------------|
+| **Pros** | - Taught entirely in Python ( + other ML libraries such as Tensorflow or Keras) <br />  | 
+| **Cons** |  | 
+| **In Details** | [**Assignment and Project solutions**](https://github.com/kevinzous/AzimuthsLearning/tree/master/MOOCS2_Deep_Learning_Deeplearningai) |
 
 - [ ] [Tensorflow](https://developers.google.com/machine-learning/crash-course/) - crash course by Google 
 
@@ -26,14 +26,14 @@
 
 ### 1-b) ebooks
 - [ ] [Mathematics for machine learning](https://mml-book.github.io/book/mml-book.pdf) 
-- [x] [Deep Learning with Python, Francois Chollet](https://www.academia.edu/40318927/Deep_Learning_With_Python_by_Francois_Chollet)
+- [x] [Deep Learning with Python, Francois Chollet](https://www.academia.edu/40318927/Deep_Learning_With_Python_by_Francois_Chollet) + [GitHub link of Jupyter notebooks in the book](https://github.com/fchollet/deep-learning-with-python-notebooks) 
 
 ### 1-c) Research Papers 
 
 [Coursera: Convolutional Neural Networks Papers](https://gist.github.com/rubychilds/d9137168d0843f4a8071727e67a5816c)
 [Coursera: Sequence Models Papers](https://github.com/iitrsamrat/deeplearning.ai.sequence-model-papers/blob/master/index.md)
 
-### 1-d) Extra resources 
+### 1-d) Other resources 
 [amitness/learning](https://github.com/amitness/learning) - github repo containing a quite exhaustive list of online courses + e-books 
 
 [ossu/data-science](https://github.com/ossu/data-science#curriculum) - github repo
