@@ -34,7 +34,7 @@
 - [ ] [Coursera: Sequence Models Papers](https://github.com/iitrsamrat/deeplearning.ai.sequence-model-papers/blob/master/index.md) <br /> 
 - [ ] [Auto-Keras: An Efficient Neural Architecture Search System](https://dl.acm.org/doi/pdf/10.1145/3292500.3330648) <br /> 
 - [ ] [Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization](https://arxiv.org/abs/1603.06560) <br />
-
+Hyperband is an optimized version of random search which uses early-stopping to speed up the hyperparameter tuning process. The main idea is to fit a large number of models for a small number of epochs and to only continue training for the models achieving the highest accuracy on the validation set. The max_epochs variable is the max number of epochs that a model can be trained for.
 
 
 ### 1-d) Other resources 
