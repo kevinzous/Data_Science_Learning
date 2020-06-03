@@ -8,8 +8,8 @@
 
 |   | Description |
 |---------|--------------------------------------------------------------------------------------------------------------|
-| **Pros** | - beginner friendly <br /> - one of the first and best courses in ML <br /> - theory-driven and in-depth coverage of algorithms <br /> | 
-| **Cons** | - taught in Matlab/Octave (more research-oriented language than Python) <br /> - course made in 2011, introduction-level course to ML <br /> | 
+| **Pros** | - Beginner friendly <br /> - one of the first and best courses in ML <br /> - Theory-driven and in-depth coverage of algorithms <br /> | 
+| **Cons** | - Taught in Matlab/Octave (more research-oriented language than Python) <br /> - Course made in 2011, introduction-level course to ML <br /> | 
 | **In Details** | - [Useful resources section](https://www.coursera.org/learn/machine-learning/resources/NrY2G) including informative Websites / ML Datasets / Useful papers <br /> - [**Assignment and Project solutions**](https://github.com/kevinzous/AzimuthsLearning/tree/master/MOOCS1_Machine%20Learning_Stanford) <br /> |
 
 - [x] [Deep Learning specialization, deeplearning.ai, Coursera](https://www.coursera.org/specializations/deep-learning) in python <br />
