@@ -30,8 +30,12 @@
 
 ### 1-c) Research Papers 
 
-[Coursera: Convolutional Neural Networks Papers](https://gist.github.com/rubychilds/d9137168d0843f4a8071727e67a5816c)
-[Coursera: Sequence Models Papers](https://github.com/iitrsamrat/deeplearning.ai.sequence-model-papers/blob/master/index.md)
+- [ ] [Coursera: Convolutional Neural Networks Papers](https://gist.github.com/rubychilds/d9137168d0843f4a8071727e67a5816c) <br /> 
+- [ ] [Coursera: Sequence Models Papers](https://github.com/iitrsamrat/deeplearning.ai.sequence-model-papers/blob/master/index.md) <br /> 
+- [ ] [Auto-Keras: An Efficient Neural Architecture Search System](https://dl.acm.org/doi/pdf/10.1145/3292500.3330648) <br /> 
+- [ ] [Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization](https://arxiv.org/abs/1603.06560) <br />
+
+
 
 ### 1-d) Other resources 
 [amitness/learning](https://github.com/amitness/learning) - github repo containing a quite exhaustive list of online courses + e-books 
