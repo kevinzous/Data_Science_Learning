@@ -16,7 +16,7 @@
 
 |   | Description |
 |---------|--------------------------------------------------------------------------------------------------------------|
-| **Pros** | - Taught entirely in Python ( + other ML libraries such as Tensorflow or Keras) <br />  | 
+| **Pros** | - Taught entirely in Python ( + other ML libraries such as Tensorflow or Keras) <br /> - Course made in 2017-2018  | 
 | **Cons** |  | 
 | **In Details** | [**Assignment and Project solutions**](https://github.com/kevinzous/AzimuthsLearning/tree/master/MOOCS2_Deep_Learning_Deeplearningai) |
 
