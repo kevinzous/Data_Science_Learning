@@ -4,6 +4,7 @@
 
 ## 1- Learning Ressources
 ### 1-a) Courses
+
 - [x] [Machine Learning, Stanford, Coursera](https://www.coursera.org/learn/machine-learninfg/home/welcome) <br />
 
 |   | Description |
