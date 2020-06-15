@@ -25,7 +25,8 @@
 - [ ] [CS 20: Tensorflow for Deep Learning Research](http://web.stanford.edu/class/cs20si/syllabus.html) - MOOCS 
 
 ### 1-b) Ebooks
-- [ ] [Mathematics for machine learning](https://mml-book.github.io/book/mml-book.pdf) 
+- [ ] [Mathematics for machine learning, Marc Peter Deisenroth et al.](https://mml-book.github.io/book/mml-book.pdf) 
+- [ ] [The Elements of Statistical Learning, Trevor Hastie, Robert Tibshirani, Jerome Friedman](https://web.stanford.edu/~hastie/ElemStatLearn//printings/ESLII_print10.pdf) 
 - [x] [Deep Learning with Python, Francois Chollet](https://www.academia.edu/40318927/Deep_Learning_With_Python_by_Francois_Chollet) + [GitHub link of Jupyter notebooks in the book](https://github.com/fchollet/deep-learning-with-python-notebooks) 
 
 ### 1-c) Research Papers 
