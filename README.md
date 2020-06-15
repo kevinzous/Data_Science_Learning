@@ -73,8 +73,9 @@ Hyperband is an optimized version of random search which uses early-stopping to 
 - [CS 230 Stanford DL Course (Deeplearning)](https://github.com/afshinea/stanford-cs-230-deep-learning/blob/master/en/super-cheatsheet-deep-learning.pdf)
 
 ### 2-b) Coding interviews
-- [LeetCode : Top Interview Questions - Easy collection or 30-Day Leetcoding challenge](https://leetcode.com/explore/featured/card/top-interview-questions-easy/)
-- [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - github repo for interview preparation
+- [x] [LeetCode : Top Interview Questions - Easy collection](https://leetcode.com/explore/featured/card/top-interview-questions-easy/)
+- [x] [30-Day Leetcoding challenge](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/)
+- [ ] [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - github repo for interview preparation
 
 
 
