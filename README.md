@@ -48,17 +48,11 @@ Hyperband is an optimized version of random search which uses early-stopping to 
 
 [vinta/awesome-python](https://github.com/vinta/awesome-python): curated list of Python frameworks, libraries, ressources... 
 
-### 1-e) Other ways of learning (podcasts, funny articles) 
+### 1-e) Other ways of learning (podcasts etc.) 
 
 [Data skeptic on spotify](https://open.spotify.com/show/1BZN7H3ikovSejhwQTzNm4) including <br /> 
 -Podcast of entry level : MINI series <br />
 -Podcast of intermediate to advanced level : interviews with ML experts
-
-[Everything a Data Scientist Should Know About Data Management](https://towardsdatascience.com/everything-a-data-scientist-should-know-aboutsedata-management-6877788c6a42)
-
-[Data Scientists, The 5 Graph Algorithms that you should know](https://towardsdatascience.com/data-scientists-the-five-graph-algorithms-that-you-should-know-30f454fa5513)
-
-[Data Science Workflow: Overview and Challenges](https://cacm.acm.org/blogs/blog-cacm/169199-data-science-workflow-overview-and-challenges/fulltext)
 
 
 ## 2- Interview preparation
