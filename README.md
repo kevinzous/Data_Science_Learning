@@ -74,6 +74,8 @@ Hyperband is an optimized version of random search which uses early-stopping to 
 
 ### 2-b) Coding interviews
 - [x] [LeetCode : Top Interview Questions - Easy collection](https://leetcode.com/explore/featured/card/top-interview-questions-easy/)
+- [ ] [LeetCode : Top Interview Questions - Medium collection](https://leetcode.com/explore/featured/card/top-interview-questions-medium/)
+- [ ] [LeetCode : Top Interview Questions - Hard collection](https://leetcode.com/explore/featured/card/top-interview-questions-hard/)
 - [x] [LeetCode : 30-Day Leetcoding challenge](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/)
 - [ ] [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - github repo for interview preparation
 
