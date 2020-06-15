@@ -24,7 +24,7 @@
 
 - [ ] [CS 20: Tensorflow for Deep Learning Research](http://web.stanford.edu/class/cs20si/syllabus.html) - MOOCS 
 
-### 1-b) ebooks
+### 1-b) Ebooks
 - [ ] [Mathematics for machine learning](https://mml-book.github.io/book/mml-book.pdf) 
 - [x] [Deep Learning with Python, Francois Chollet](https://www.academia.edu/40318927/Deep_Learning_With_Python_by_Francois_Chollet) + [GitHub link of Jupyter notebooks in the book](https://github.com/fchollet/deep-learning-with-python-notebooks) 
 
@@ -37,7 +37,7 @@
 Hyperband is an optimized version of random search which uses early-stopping to speed up the hyperparameter tuning process. The main idea is to fit a large number of models for a small number of epochs and to only continue training for the models achieving the highest accuracy on the validation set. The max_epochs variable is the max number of epochs that a model can be trained for.
 
 
-### 1-d) Other resources 
+### 1-d) GitHub Repo
 [amitness/learning](https://github.com/amitness/learning) - github repo containing a quite exhaustive list of online courses + e-books 
 
 [ossu/data-science](https://github.com/ossu/data-science#curriculum) - github repo
@@ -48,7 +48,7 @@ Hyperband is an optimized version of random search which uses early-stopping to 
 
 [vinta/awesome-python](https://github.com/vinta/awesome-python): curated list of Python frameworks, libraries, ressources... 
 
-### 1-e) Other ways of learning (podcasts etc.) 
+### 1-e) Others (podcasts etc.) 
 
 [Data skeptic on spotify](https://open.spotify.com/show/1BZN7H3ikovSejhwQTzNm4) including <br /> 
 -Podcast of entry level : MINI series <br />
