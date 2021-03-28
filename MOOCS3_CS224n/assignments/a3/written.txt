@@ -1,0 +1,73 @@
+1. 
+a) ADAM
+i. Momentum : running average of gradients
+* reduce variance and oscillation (if learning step is big) allowing faster convergence 
+
+ii. ADAM: running average of gradients (m) + running average of magnitudes OF gradients (v)
+* Benefits of momentum
+* updates divided by sqrt(v) : if learning rate is high, it scales it down and otherwise if learning is stuck (low v), it makes it bigger.
+=> adaptative learning rates 
+
+
+b) dropout 
+i. gamma = 1/ (1-pdrop) because E(d) = 0*pdrop + 1*(1-pdrop)
+ii. dropout prevent overfitting => only happens at training. We only apply at training times
+
+2.
+a)
+Stack :[ROOT, parsed, this]
+Buffer : [sentence, correctly]
+Transition : SHIFT
+
+Stack :[ROOT, parsed, this, sentence]
+Buffer : [correctly]
+Transition :  SHIFT
+
+Stack :[ROOT, parsed, sentence]
+Buffer : [correctly]
+New dependency : this<-sentence
+Transition :  LEFT-ARC
+
+Stack :[ROOT, parsed]
+Buffer : [correctly]
+New dependency : parsed->sentence
+Transition :  RIGHT-ARC
+
+Stack :[ROOT, parsed, correctly]
+Buffer : []
+Transition :  SHIFT
+
+Stack :[ROOT, parsed]
+Buffer : []
+New dependency : parsed->correctly
+Transition :  RIGHT-ARC
+
+Stack :[ROOT]
+Buffer : []
+New dependency : ROOT->parsed
+Transition :  RIGHT-ARC
+
+buffer is empty and stack size one=> the iteration stops
+
+b) Given n words, we have n steps of arc operations and n steps of shift opertions = 2n in total 
+
+f)
+(i) I disembarked and was heading to a wedding fearing my death
+ Error type: Verb Phrase Attachment Error
+• Incorrect dependency: wedding -> fearing 
+• Correct dependency: heading -> fearing 
+
+(ii) It makes me want to rush out and rescue people from dilemmas of their own making
+ Error type: Coordination Attachment Error 
+• Incorrect dependency: makes -> rescue ??
+• Correct dependency: rush -> rescue
+
+(iii) It is on loan from a guy named Joe O'Neill in Midland , Texas .
+ Error type: Prepositional Phrase Attachment Error
+• Incorrect dependency:named -> Midland
+• Correct dependency:guy -> Midland 
+
+(iv) Brian has been one of the most crucial elements to the success of Mozilla software
+ Error type: Modifier Attachment Error 
+• Incorrect dependency: elements-> most
+• Correct dependency: crucial -> most 
