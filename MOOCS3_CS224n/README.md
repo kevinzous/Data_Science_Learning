@@ -49,14 +49,5 @@ Assignement 4 (后半)
 Assignement 5 
 
 
-Changements supplémentaires : 
-* Ajouter une page de garde - Règle de gestion
-* Dans la page gains et pertes, j'ai récupéré les libéllés des motifs de résiliation dans Datascope. 
-Cela fait que lorsqu'il y a une MAJ des motifs, cela se reflètera automatiquemeent dans le rapport ( ex : motif = 14 ) 
-
-
-
-
-
 
 
