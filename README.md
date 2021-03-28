@@ -1,6 +1,3 @@
-# AzimuthsLearning
-
-#LearningProgramme #Agenda #Useful #MachineLearning #DeepLearning 
 
 ## 1- Learning Ressources
 ### 1-a) Courses
@@ -25,37 +22,29 @@
 
 - [ ] [CS 20: Tensorflow for Deep Learning Research](http://web.stanford.edu/class/cs20si/syllabus.html) - MOOCS 
 
+
 ### 1-b) Ebooks
 - [ ] [Mathematics for machine learning, Marc Peter Deisenroth et al.](https://mml-book.github.io/book/mml-book.pdf) 
 - [ ] [The Elements of Statistical Learning, Trevor Hastie, Robert Tibshirani, Jerome Friedman](https://web.stanford.edu/~hastie/ElemStatLearn//printings/ESLII_print10.pdf) 
 - [x] [Deep Learning with Python, Francois Chollet](https://www.academia.edu/40318927/Deep_Learning_With_Python_by_Francois_Chollet) + [GitHub link of Jupyter notebooks in the book](https://github.com/fchollet/deep-learning-with-python-notebooks) 
 
 ### 1-c) Research Papers 
-
 - [ ] [Coursera: Convolutional Neural Networks Papers](https://gist.github.com/rubychilds/d9137168d0843f4a8071727e67a5816c) <br /> 
 - [ ] [Coursera: Sequence Models Papers](https://github.com/iitrsamrat/deeplearning.ai.sequence-model-papers/blob/master/index.md) <br /> 
-- [ ] [Auto-Keras: An Efficient Neural Architecture Search System](https://dl.acm.org/doi/pdf/10.1145/3292500.3330648) <br /> 
-- [ ] [Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization](https://arxiv.org/abs/1603.06560) <br />
-Hyperband is an optimized version of random search which uses early-stopping to speed up the hyperparameter tuning process. The main idea is to fit a large number of models for a small number of epochs and to only continue training for the models achieving the highest accuracy on the validation set. The max_epochs variable is the max number of epochs that a model can be trained for.
 
 
 ### 1-d) GitHub Repo
 [amitness/learning](https://github.com/amitness/learning) - github repo containing a quite exhaustive list of online courses + e-books 
-
 [ossu/data-science](https://github.com/ossu/data-science#curriculum) - github repo
-
 [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) - github repo
-
 [rushter/data-science-blogs](https://github.com/rushter/data-science-blogs?fbclid=IwAR2rjw3Q2hCLJHLVt3jN685t38O6PpRP3ckPysa2FKCtfNjgEM-fMS-k1yQ): github repo of lists of data science blogs
-
 [vinta/awesome-python](https://github.com/vinta/awesome-python): curated list of Python frameworks, libraries, ressources... 
 
-### 1-e) Others (podcasts etc.) 
+### 1-e) Good articles 
 
 [Data skeptic on spotify](https://open.spotify.com/show/1BZN7H3ikovSejhwQTzNm4) including <br /> 
 -Podcast of entry level : MINI series <br />
 -Podcast of intermediate to advanced level : interviews with ML experts
-
 
 ## 2- Interview preparation
 
